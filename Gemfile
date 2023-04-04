@@ -7,9 +7,9 @@
 #
 
 gem 'eventmachine'
-gem 'thin'
-gem 'sinatra'
-gem 'rack'
+gem 'thin', '>= 1.7.0'
+gem 'sinatra', '>= 2.2.3'
+gem 'rack', '>= 3.0.0'
 gem 'em-websocket' # WebSocket support
 gem 'uglifier'
 gem 'mime-types'
@@ -17,9 +17,9 @@ gem 'execjs'
 gem 'ansi'
 gem 'term-ansicolor', :require => 'term/ansicolor'
 gem 'dm-core'
-gem 'json'
+gem 'json', '>= 2.3.0'
 gem 'data_objects'
-gem 'rubyzip', '>= 1.0.0'
+gem 'rubyzip', '>= 1.3.0'
 gem 'espeak-ruby', '>= 1.0.3' # Text-to-Voice
 
 
