@@ -9,7 +9,7 @@
 gem 'eventmachine'
 gem 'thin'
 gem 'sinatra'
-gem 'rack'
+gem 'rack', '>= 2.2.12'
 gem 'em-websocket' # WebSocket support
 gem 'uglifier'
 gem 'mime-types'
